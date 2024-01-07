@@ -1,0 +1,1 @@
+Project ini bertujuan membangun relational database untuk sebuah website tempat menawarkan dan mencari mobil bekas. Di website tersebut, penjual mengiklankan produknya dan calon pembeli dapat melakukan pencarian mobil bekas berdasarkan beberapa kategori. Transaksi pembelian tidak termasuk dalam lingkup project ini karena dilakukan di luar website. 
