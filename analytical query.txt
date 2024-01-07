@@ -1,0 +1,109 @@
+--No.1 Ranking Popularitas Model Mobil berdasarkan jumlah bid
+WITH bid_fr_adv AS (SELECT a.bid_id,a.adv_id,b.product_id
+					FROM bid as a LEFT JOIN advertisement as b ON a.adv_id = b.adv_id)
+
+SELECT y.model, COUNT(DISTINCT adv_id) AS jumlah_iklan,
+COUNT(bid_id) AS jumlah_bid
+FROM bid_fr_adv as x LEFT JOIN product as y ON x.product_id = y.product_id
+GROUP BY 1
+ORDER BY jumlah_bid DESC
+
+--No.2 Membandingkan harga mobil dengan harga rata-rata per kota
+--Buat CTE gabung tabel users dan city
+WITH users_city AS (SELECT a.user_id, b.city_name FROM users as a LEFT JOIN city as b ON a.city_id = b.city_id),
+--Buat CTE gabung tabel 1 dan advertisement
+adv_uc AS (SELECT x.adv_id,x.product_id,x.sell_price,y.city_name
+FROM advertisement as x LEFT JOIN users_city as y ON x.user_id_seller = y.user_id)
+--Gabung tabel 2 dan product
+SELECT city_name, brand, model, year, sell_price,
+AVG (sell_price) OVER (PARTITION BY city_name ORDER BY sell_price DESC RANGE BETWEEN UNBOUNDED PRECEDING
+					  AND UNBOUNDED FOLLOWING) AS avg_carprice_city
+FROM adv_uc as c LEFT JOIN product as d ON c.product_id = d.product_id
+ORDER BY avg_carprice_city DESC
+
+--No.3 Cari perbandingan tanggal user melakukan bid dengan bid selanjutnya dan harga tawar yang diberikan untuk suatu model mobil misal Honda Civic
+--Gabung tabel bid dan advertisement
+WITH adv_bid AS (SELECT a.bid_id, a.date_created AS bid_date, a.adv_id, a.bid_price, a.user_id_buyer,
+				 b.product_id, b.sell_price
+FROM bid as a LEFT JOIN advertisement as b ON a.adv_id = b.adv_id),
+--Gabung tabel 1 dan tabel product
+rawdata AS (SELECT y.model, x.* FROM adv_bid AS x LEFT JOIN product AS y USING (product_id)),
+--Buat partisi data tabel 2 berdasarkan adv_id dan user_id_buyer
+rawdata2 AS (SELECT model, adv_id, user_id_buyer, sell_price, bid_date AS first_bid_date,
+LEAD(bid_date,1) OVER (PARTITION BY adv_id, user_id_buyer ORDER BY bid_date) AS next_bid_date, 
+			 bid_price AS first_bid_price,
+LEAD(bid_price,1) OVER (PARTITION BY adv_id, user_id_buyer ORDER BY bid_date) AS next_bid_price FROM rawdata)
+--Filter produk untuk model Honda Civic dan adv_id dimana user_id_buyer mengajukan tawar harga >1 kali
+SELECT * FROM rawdata2
+WHERE next_bid_date IS NOT null AND model = 'Honda Civic'
+
+--No.4 Membandingkan persentase perbedaan rata-rata harga yang ditetapkan penjual (sell_price) dengan rata-rata harga yang diajukan calon pembeli (bid_price) berdasarkan modelnya pada 6 bulan terakhir
+--Buat temporary table untuk menghitung avg_sell_price 6 bulan terakhir
+CREATE TEMPORARY TABLE avg_sell_price AS 
+SELECT model, AVG(sell_price) AS avg_sell_price FROM advertisement as a LEFT JOIN product as B USING (product_id)
+WHERE date_created BETWEEN '2023-07-05' AND '2024-01-05'
+GROUP BY 1
+--Buat temporary table untuk menghitung avg_bid_price 6 bulan terakhir
+CREATE TEMPORARY TABLE avg_bid_price AS
+WITH rawdata AS (SELECT * FROM advertisement as a LEFT JOIN product as B USING (product_id))
+SELECT model, AVG(bid_price) AS avg_bid_price FROM bid as y LEFT JOIN rawdata as x USING (adv_id)
+WHERE y.date_created BETWEEN '2023-07-05' AND '2024-01-05'
+GROUP BY 1;
+--Mencari selisih avg_sell_price dan avg_bid_price
+SELECT *, (avg_sell_price-avg_bid_price) AS difference,
+(avg_sell_price-avg_bid_price)/avg_sell_price*100 AS difference_percent
+FROM avg_sell_price LEFT JOIN avg_bid_price USING (model)
+
+--No.5 Membuat window function rata-rata harga bid sebuah merk dan mobil selama 6 bulan terakhir
+--Buat temporary table bid price untuk setiap model mobil
+CREATE TEMPORARY TABLE bidprice_bymodel AS
+WITH rawdata AS (SELECT * FROM advertisement as a LEFT JOIN product as B USING (product_id))
+SELECT brand, model, bid_price, y.date_created FROM bid as y LEFT JOIN rawdata as x USING (adv_id)
+
+--Buat temporary table untuk menghitung rata-rata harga bid selama 6 bulan terakhir
+CREATE TEMPORARY TABLE bid_price_6m AS
+SELECT brand, model, AVG(bid_price) AS m_mobil_6 FROM bidprice_bymodel
+WHERE date_created BETWEEN '2023-07-06' AND '2024-01-06'
+GROUP BY 1,2
+
+--Buat temporary table untuk menghitung rata-rata harga bid selama 5 bulan terakhir
+CREATE TEMPORARY TABLE bid_price_5m AS
+SELECT brand, model, AVG(bid_price) AS m_mobil_5 FROM bidprice_bymodel
+WHERE date_created BETWEEN '2023-08-06' AND '2024-01-06'
+GROUP BY 1,2
+
+--Buat temporary table untuk menghitung rata-rata harga bid selama 4 bulan terakhir
+CREATE TEMPORARY TABLE bid_price_4m AS
+SELECT brand, model, AVG(bid_price) AS m_mobil_4 FROM bidprice_bymodel
+WHERE date_created BETWEEN '2023-09-06' AND '2024-01-06'
+GROUP BY 1,2
+
+--Buat temporary table untuk menghitung rata-rata harga bid selama 3 bulan terakhir
+CREATE TEMPORARY TABLE bid_price_3m AS
+SELECT brand, model, AVG(bid_price) AS m_mobil_3 FROM bidprice_bymodel
+WHERE date_created BETWEEN '2023-10-06' AND '2024-01-06'
+GROUP BY 1,2
+
+--Buat temporary table untuk menghitung rata-rata harga bid selama 2 bulan terakhir
+CREATE TEMPORARY TABLE bid_price_2m AS
+SELECT brand, model, AVG(bid_price) AS m_mobil_2 FROM bidprice_bymodel
+WHERE date_created BETWEEN '2023-11-06' AND '2024-01-06'
+GROUP BY 1,2
+
+--Buat temporary table untuk menghitung rata-rata harga bid selama 1 bulan terakhir
+CREATE TEMPORARY TABLE bid_price_1m AS
+SELECT brand, model, AVG(bid_price) AS m_mobil_1 FROM bidprice_bymodel
+WHERE date_created BETWEEN '2023-12-06' AND '2024-01-06'
+GROUP BY 1,2
+
+--Menggabung semua temporary table dengan CTE
+WITH raw1 AS (SELECT * FROM bid_price_6m LEFT JOIN bid_price_5m USING (brand,model)),
+raw2 AS (SELECT * FROM raw1 LEFT JOIN bid_price_4m USING (brand,model)),
+raw3 AS (SELECT * FROM raw2 LEFT JOIN bid_price_3m USING (brand,model)),
+raw4 AS (SELECT * FROM raw3 LEFT JOIN bid_price_2m USING (brand,model))
+SELECT * FROM raw4 LEFT JOIN bid_price_1m USING (brand,model)
+
+
+
+
+

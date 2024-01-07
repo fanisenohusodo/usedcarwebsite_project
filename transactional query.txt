@@ -1,0 +1,85 @@
+--No.1 Mencari mobil keluaran tahun 2015 ke atas
+--Tipe data kolom year perlu diubah menjadi integer karena salah menentukan tipe data
+ALTER TABLE product
+ALTER COLUMN year
+TYPE integer USING year::integer;
+
+SELECT a.adv_id, a.product_id, b.model, b.year, a.sell_price
+FROM advertisement as a LEFT JOIN product as b ON a.product_id = b.product_id
+WHERE year >=2015
+ORDER BY year
+
+--No.2 Mendaftarkan diri sebagai user baru sebelum bisa memasukkan data bid baru
+INSERT INTO users VALUES 
+(101,'Farida','Ariyani','+6285257107107','fays107','fani.041013268@gmail.com',3578,'24790','2024-01-06 20:15:30');
+
+--Menambahkan satu data bid produk baru
+INSERT INTO bid (bid_id, date_created, adv_id, user_id_buyer, bid_price)
+VALUES (551, '2024-01-06 21:08:24', 18, 101, 175000000);
+
+--No.3 Mencari satu akun seller yang menjual produk paling banyak
+SELECT a.user_id_seller, b.first_name, b.last_name, 
+COUNT(a.adv_id) AS jumlah_produk
+FROM advertisement as a LEFT JOIN users as b ON a.user_id_seller = b.user_id
+GROUP BY 1,2,3
+ORDER BY jumlah_produk DESC
+
+--No.4 Melihat semua mobil yang dijual satu akun seller dari yang paling baru
+WITH adv_users AS (SELECT a.user_id_seller, b.first_name, b.last_name, a.adv_id,
+				   a.product_id, a.sell_price, a.date_created
+FROM advertisement as a LEFT JOIN users as b ON a.user_id_seller = b.user_id)
+
+SELECT x.adv_id,x.date_created,y.model,y.body_type,y.year,x.sell_price
+FROM adv_users as x LEFT JOIN product as y ON x.product_id = y.product_id
+WHERE first_name ='Mahmud' AND last_name='Hariyah'
+ORDER BY date_created DESC
+
+--No.5 Mencari mobil bekas termurah berdasarkan keyword (misal model yang diingikan Toyota Yaris)
+WITH adv_users AS (SELECT a.user_id_seller, b.username, a.adv_id,
+				   a.product_id, a.sell_price, a.date_created
+FROM advertisement as a LEFT JOIN users as b ON a.user_id_seller = b.user_id)
+
+SELECT x.adv_id,x.username AS seller_username, x.date_created,y.model,y.body_type,y.year,x.sell_price
+FROM adv_users as x LEFT JOIN product as y ON x.product_id = y.product_id
+WHERE model = 'Toyota Yaris'
+ORDER BY sell_price
+
+--No.6 Mencari mobil bekas yang lokasinya terdekat berdasarkan distance
+--Membuat function untuk mengukur jarak 2 kota
+CREATE FUNCTION haversine_distance (point1 POINT, point2 POINT)
+RETURNS float AS $$
+DECLARE
+	lon1 float := radians(point1[0]);
+	lat1 float := radians(point1[1]);
+	lon2 float := radians(point2[0]);
+	lat2 float := radians(point2[1]);
+
+	dlon float := lon2 - lon1;
+	dlat float := lat2 - lat1;
+	a float;
+	c float;
+	r float := 6371;
+	jarak float;
+
+BEGIN
+--haversine formula
+	a := sin(dlat/2)^2+cos(lat1)*cos(lat2)*sin(dlon/2)^2;
+	c := 2*asin(sqrt(a));
+	jarak := r*c;
+	RETURN jarak;
+END;
+$$ LANGUAGE plpgsql;
+
+--Membuat temporary table detail lokasi seller
+CREATE TEMPORARY TABLE detail_seller AS
+WITH adv_user AS (SELECT adv_id, user_id_seller, product_id, sell_price, city_id FROM advertisement AS x 
+				  LEFT JOIN users as y ON user_id_seller = user_id),
+adv_user_city AS (SELECT * FROM adv_user LEFT JOIN city USING (city_id))
+SELECT adv_id, user_id_seller, city_name, brand, model, body_type, year, sell_price, location
+FROM adv_user_city LEFT JOIN product USING (product_id)
+--Mencari mobil bekas Suzuki Ertiga yang lokasinya terdekat berdasarkan perhitungan jarak pembeli dan penjual
+SELECT adv_id, user_id_seller, city_name AS seller_location, brand, model, body_type, year, sell_price,
+haversine_distance ((location),
+(SELECT location FROM city WHERE city_name = 'Kota Surabaya')) AS km_distance FROM detail_seller
+WHERE model = 'Suzuki Ertiga'
+ORDER BY km_distance

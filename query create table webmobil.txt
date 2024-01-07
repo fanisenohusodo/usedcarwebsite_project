@@ -1,0 +1,50 @@
+--Create Semua Table yang dibutuhkan
+CREATE TABLE city(city_id integer PRIMARY KEY, city_name varchar(100) NOT NULL UNIQUE, 
+location point NOT NULL);
+
+CREATE TABLE users(user_id SERIAL PRIMARY KEY, first_name varchar(100) NOT NULL,
+last_name varchar(100), phone varchar(20) NOT NULL UNIQUE, username varchar(100) NOT NULL UNIQUE,
+email varchar(100) NOT NULL UNIQUE, city_id integer NOT NULL, password varchar(100) NOT NULL,
+joined_date timestamp NOT NULL,
+CONSTRAINT fk_users_city
+FOREIGN KEY (city_id)
+REFERENCES city (city_id));   
+
+CREATE TABLE product(product_id SERIAL PRIMARY KEY, brand varchar(100) NOT NULL,
+model varchar(100) NOT NULL, body_type varchar(100) NOT NULL, year varchar(4) NOT NULL);
+
+CREATE TABLE advertisement(adv_id SERIAL PRIMARY KEY, date_created timestamp NOT NULL,
+user_id_seller integer NOT NULL, product_id integer NOT NULL, title varchar (100) NOT NULL, description text, 
+sell_price numeric NOT NULL CHECK(sell_price > 0), can_bid boolean NOT NULL DEFAULT TRUE,       
+CONSTRAINT fk_adv_user
+FOREIGN KEY (user_id_seller)
+REFERENCES users (user_id),
+CONSTRAINT fk_adv_product
+FOREIGN KEY (product_id)
+REFERENCES product (product_id));   
+
+CREATE TABLE product_search(search_id SERIAL PRIMARY KEY, date_created timestamp NOT NULL,
+adv_id integer NOT NULL,
+CONSTRAINT fk_search_adv
+FOREIGN KEY (adv_id)
+REFERENCES advertisement (adv_id));
+
+CREATE TABLE bid(bid_id SERIAL PRIMARY KEY, date_created timestamp NOT NULL,
+adv_id integer NOT NULL, user_id_buyer integer NOT NULL,
+bid_price numeric NOT NULL CHECK(bid_price > 0),
+CONSTRAINT fk_bid_user
+FOREIGN KEY (user_id_buyer)
+REFERENCES users (user_id),
+CONSTRAINT fk_bid_adv
+FOREIGN KEY (adv_id)
+REFERENCES advertisement (adv_id));
+
+--buat index
+CREATE INDEX idx_product_brand
+ON product USING btree (brand);
+
+CREATE INDEX idx_product_bodytype
+ON product USING btree (body_type);
+
+CREATE INDEX idx_city_name
+ON city USING hash (city_name);

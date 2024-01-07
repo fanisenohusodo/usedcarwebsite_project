@@ -1,0 +1,401 @@
+adv_id,date_created,user_id_seller,product_id,title,description,sell_price,can_bid
+1,2023-10-09 21:03:51,61,33,Dijual murah Honda Jazz 2018,Minat hubungi (0572) 007-6406,238000000,True
+2,2023-07-11 02:15:13,57,13,Dijual murah Toyota Calya 2017,Minat hubungi 0823275525,104000000,True
+3,2023-06-16 15:53:57,15,1,Dijual murah Toyota Yaris 2016,Minat hubungi +62-0914-021-1826,234000000,True
+4,2023-08-20 07:08:54,34,2,Dijual murah Toyota Yaris 2018,Minat hubungi +62 (252) 901 7638,224000000,True
+5,2023-06-25 19:23:18,48,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi +62 (60) 035-1949,180000000,True
+6,2023-09-12 19:42:09,96,40,Dijual murah Honda CR-V 2018,Minat hubungi 0880386550,166000000,True
+7,2023-12-29 03:57:10,41,15,Dijual murah Toyota Calya 2016,Minat hubungi +62-089-173-9354,114000000,True
+8,2023-08-24 23:52:05,66,11,Dijual murah Toyota Calya 2019,Minat hubungi +62 (490) 788 0659,114000000,True
+9,2023-07-10 06:36:29,53,6,Dijual murah Toyota Agya 2019,Minat hubungi +62 (061) 636 8857,107000000,False
+10,2023-11-18 22:54:55,81,15,Dijual murah Toyota Calya 2016,Minat hubungi 084 410 2690,134000000,True
+11,2023-10-21 13:33:11,52,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi +62-57-976-3293,150000000,True
+12,2023-06-27 21:21:31,50,40,Dijual murah Honda CR-V 2018,Minat hubungi +62 (96) 811-6097,326000000,True
+13,2023-11-04 12:50:14,49,25,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-034-185-3846,206000000,False
+14,2023-06-11 20:17:42,87,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi (052) 147 8944,210000000,True
+15,2023-07-15 17:49:05,67,45,Dijual murah Honda Civic 2019,Minat hubungi +62 (098) 177 6743,256000000,True
+16,2023-10-24 21:40:23,22,6,Dijual murah Toyota Agya 2019,Minat hubungi +62 (0621) 341-5716,127000000,True
+17,2023-08-10 23:40:14,57,37,Dijual murah Honda CR-V 2017,Minat hubungi 0823275525,136000000,True
+18,2023-07-29 16:38:31,5,4,Dijual murah Toyota Yaris 2020,Minat hubungi +62 (68) 455 0788,204000000,True
+19,2023-12-25 01:36:29,11,16,Dijual murah Daihatsu Ayla 2016,Minat hubungi (025) 249 3491,83000000,True
+20,2023-08-06 06:19:19,46,23,Dijual murah Daihatsu Terios 2019,Minat hubungi (0219) 994-7824,196000000,True
+21,2023-11-30 20:09:23,78,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi +62 (004) 989-2448,160000000,True
+22,2023-10-01 18:46:24,57,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi 0823275525,140000000,True
+23,2023-12-01 11:01:46,16,13,Dijual murah Toyota Calya 2017,Minat hubungi 081 745 5348,114000000,True
+24,2023-12-27 18:04:50,15,45,Dijual murah Honda Civic 2019,Minat hubungi +62-0914-021-1826,226000000,True
+25,2023-07-03 22:02:43,24,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi +62 (481) 110-8908,103000000,True
+26,2023-08-10 03:52:09,29,34,Dijual murah Honda Jazz 2015,Minat hubungi 0851800132,208000000,True
+27,2023-11-03 04:48:11,73,15,Dijual murah Toyota Calya 2016,Minat hubungi +62 (001) 431 3454,124000000,True
+28,2024-01-03 21:32:27,2,31,Dijual murah Honda Jazz 2018,Minat hubungi (0105) 001 5479,188000000,True
+29,2023-07-04 04:44:09,25,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62 (0134) 111-6092,100000000,True
+30,2024-01-01 15:48:27,20,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi 0891920606,160000000,True
+31,2023-08-26 02:39:22,16,22,Dijual murah Daihatsu Terios 2022,Minat hubungi 081 745 5348,166000000,True
+32,2023-06-14 21:09:23,76,34,Dijual murah Honda Jazz 2015,Minat hubungi (0068) 559-5861,178000000,True
+33,2023-06-30 09:44:01,80,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi 0883503448,103000000,True
+34,2023-06-19 17:54:36,83,23,Dijual murah Daihatsu Terios 2019,Minat hubungi 0811999112,206000000,True
+35,2023-08-25 05:28:33,31,44,Dijual murah Honda Civic 2013,Minat hubungi +62-724-626-4369,236000000,True
+36,2023-06-04 12:12:01,59,2,Dijual murah Toyota Yaris 2018,Minat hubungi (0517) 334-1352,154000000,True
+37,2023-06-28 08:26:16,16,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi 081 745 5348,103000000,True
+38,2023-07-26 09:57:57,28,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi (027) 972-9462,140000000,True
+39,2023-09-07 05:32:37,42,15,Dijual murah Toyota Calya 2016,Minat hubungi +62 (065) 418 8069,104000000,True
+40,2023-06-23 12:17:05,72,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi +62 (987) 281 3637,130000000,True
+41,2023-12-13 05:08:28,37,25,Dijual murah Daihatsu Terios 2018,Minat hubungi (024) 251-8753,176000000,True
+42,2023-11-15 19:41:08,16,44,Dijual murah Honda Civic 2013,Minat hubungi 081 745 5348,276000000,True
+43,2023-08-27 06:05:27,58,25,Dijual murah Daihatsu Terios 2018,Minat hubungi (0717) 143-9193,216000000,True
+44,2023-08-09 06:33:37,28,33,Dijual murah Honda Jazz 2018,Minat hubungi (027) 972-9462,188000000,True
+45,2023-12-27 15:37:58,56,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi (0212) 278 9045,150000000,True
+46,2023-06-12 13:47:33,86,32,Dijual murah Honda Jazz 2019,Minat hubungi 087 872 6251,238000000,True
+47,2023-06-28 17:39:04,13,11,Dijual murah Toyota Calya 2019,Minat hubungi (0399) 326-2076,134000000,True
+48,2023-07-10 15:47:03,56,25,Dijual murah Daihatsu Terios 2018,Minat hubungi (0212) 278 9045,186000000,True
+49,2023-09-25 22:22:46,96,8,Dijual murah Toyota Agya 2016,Minat hubungi 0880386550,127000000,True
+50,2023-09-13 23:08:11,91,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62 (03) 976 4020,120000000,True
+51,2023-09-24 21:33:18,41,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62-089-173-9354,113000000,True
+52,2023-11-15 07:42:34,47,24,Dijual murah Daihatsu Terios 2017,Minat hubungi +62 (63) 104-2500,186000000,True
+53,2023-08-29 00:09:12,24,22,Dijual murah Daihatsu Terios 2022,Minat hubungi +62 (481) 110-8908,166000000,True
+54,2023-10-29 16:08:42,96,45,Dijual murah Honda Civic 2019,Minat hubungi 0880386550,306000000,True
+55,2023-10-11 20:50:08,33,7,Dijual murah Toyota Agya 2014,Minat hubungi (087) 337-9392,127000000,True
+56,2023-06-26 18:26:06,2,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi (0105) 001 5479,160000000,True
+57,2023-10-11 22:01:20,29,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi 0851800132,83000000,True
+58,2023-07-22 05:22:41,6,15,Dijual murah Toyota Calya 2016,Minat hubungi +62-032-047-7670,124000000,True
+59,2023-08-24 02:13:07,58,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi (0717) 143-9193,113000000,True
+60,2023-10-05 20:50:39,74,10,Dijual murah Toyota Agya 2017,Minat hubungi 089 995 3251,127000000,True
+61,2023-07-23 18:02:16,27,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62-469-196-1396,93000000,True
+62,2023-08-04 07:12:29,99,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (49) 390 4348,100000000,True
+63,2023-12-21 11:33:25,74,7,Dijual murah Toyota Agya 2014,Minat hubungi 089 995 3251,147000000,True
+64,2023-08-22 00:03:48,25,6,Dijual murah Toyota Agya 2019,Minat hubungi +62 (0134) 111-6092,127000000,True
+65,2023-09-17 16:19:41,33,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi (087) 337-9392,140000000,True
+66,2023-07-05 18:04:50,25,42,Dijual murah Honda Civic 2010,Minat hubungi +62 (0134) 111-6092,256000000,True
+67,2023-11-28 15:50:49,96,1,Dijual murah Toyota Yaris 2016,Minat hubungi 0880386550,194000000,True
+68,2023-10-16 04:51:41,29,31,Dijual murah Honda Jazz 2018,Minat hubungi 0851800132,198000000,True
+69,2023-10-23 00:27:36,25,5,Dijual murah Toyota Yaris 2012,Minat hubungi +62 (0134) 111-6092,214000000,True
+70,2023-10-11 05:41:10,70,42,Dijual murah Honda Civic 2010,Minat hubungi +62 (038) 767 7524,196000000,True
+71,2023-11-19 22:13:14,22,11,Dijual murah Toyota Calya 2019,Minat hubungi +62 (0621) 341-5716,134000000,True
+72,2023-11-04 22:05:45,71,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (24) 082-8539,150000000,True
+73,2023-08-17 15:04:19,93,28,Dijual murah Daihatsu Xenia 2017,Minat hubungi 085 988 6168,120000000,True
+74,2023-11-20 18:54:00,41,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi +62-089-173-9354,120000000,True
+75,2023-06-25 18:12:53,77,16,Dijual murah Daihatsu Ayla 2016,Minat hubungi (0385) 381 1513,93000000,True
+76,2023-06-25 02:35:17,78,31,Dijual murah Honda Jazz 2018,Minat hubungi +62 (004) 989-2448,218000000,True
+77,2023-07-14 00:43:26,79,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (070) 324-3544,103000000,True
+78,2023-12-03 22:28:57,9,42,Dijual murah Honda Civic 2010,Minat hubungi 0823567227,256000000,True
+79,2023-12-26 17:25:08,49,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi +62-034-185-3846,100000000,True
+80,2023-09-03 09:39:05,54,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi +62 (094) 098 8445,100000000,True
+81,2023-06-15 14:16:37,60,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi (014) 218-0535,150000000,True
+82,2023-12-04 05:42:32,33,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi (087) 337-9392,113000000,True
+83,2023-07-04 05:36:05,99,34,Dijual murah Honda Jazz 2015,Minat hubungi +62 (49) 390 4348,248000000,True
+84,2023-11-23 12:23:36,61,28,Dijual murah Daihatsu Xenia 2017,Minat hubungi (0572) 007-6406,110000000,True
+85,2023-08-02 18:14:22,16,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi 081 745 5348,220000000,True
+86,2023-09-18 04:15:40,35,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi +62-327-166-4749,140000000,True
+87,2023-07-21 08:02:47,38,10,Dijual murah Toyota Agya 2017,Minat hubungi +62 (042) 087-5922,127000000,True
+88,2023-06-03 12:22:57,50,11,Dijual murah Toyota Calya 2019,Minat hubungi +62 (96) 811-6097,114000000,True
+89,2023-12-01 18:45:56,43,24,Dijual murah Daihatsu Terios 2017,Minat hubungi +62 (11) 333-6097,206000000,True
+90,2023-06-03 19:22:00,95,8,Dijual murah Toyota Agya 2016,Minat hubungi +62-0579-293-3082,117000000,True
+91,2023-09-26 17:27:17,59,36,Dijual murah Honda CR-V 2018,Minat hubungi (0517) 334-1352,206000000,True
+92,2023-11-25 16:04:18,42,7,Dijual murah Toyota Agya 2014,Minat hubungi +62 (065) 418 8069,147000000,True
+93,2023-11-15 08:07:27,93,10,Dijual murah Toyota Agya 2017,Minat hubungi 085 988 6168,97000000,True
+94,2023-09-24 20:38:52,50,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi +62 (96) 811-6097,83000000,True
+95,2023-08-18 16:49:08,66,15,Dijual murah Toyota Calya 2016,Minat hubungi +62 (490) 788 0659,104000000,True
+96,2023-06-24 00:40:31,73,5,Dijual murah Toyota Yaris 2012,Minat hubungi +62 (001) 431 3454,224000000,True
+97,2023-08-14 22:27:46,25,24,Dijual murah Daihatsu Terios 2017,Minat hubungi +62 (0134) 111-6092,206000000,True
+98,2023-07-25 15:11:18,53,28,Dijual murah Daihatsu Xenia 2017,Minat hubungi +62 (061) 636 8857,160000000,True
+99,2023-10-02 12:43:39,82,35,Dijual murah Honda Jazz 2013,Minat hubungi +62 (580) 901 3370,218000000,True
+100,2023-10-13 05:40:19,82,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi +62 (580) 901 3370,220000000,True
+101,2023-08-07 03:07:50,84,6,Dijual murah Toyota Agya 2019,Minat hubungi +62 (364) 443 8368,137000000,True
+102,2023-07-19 08:33:07,99,7,Dijual murah Toyota Agya 2014,Minat hubungi +62 (49) 390 4348,147000000,True
+103,2023-12-18 22:54:43,43,24,Dijual murah Daihatsu Terios 2017,Minat hubungi +62 (11) 333-6097,216000000,True
+104,2023-06-18 00:49:44,87,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi (052) 147 8944,160000000,True
+105,2023-11-18 02:39:38,74,8,Dijual murah Toyota Agya 2016,Minat hubungi 089 995 3251,127000000,True
+106,2023-07-02 13:22:11,89,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi +62 (44) 259-4438,210000000,True
+107,2024-01-03 13:06:52,85,45,Dijual murah Honda Civic 2019,Minat hubungi +62-438-876-2919,236000000,True
+108,2023-11-19 17:14:59,28,41,Dijual murah Honda Civic 2018,Minat hubungi (027) 972-9462,346000000,True
+109,2023-11-02 04:23:20,14,3,Dijual murah Toyota Yaris 2014,Minat hubungi +62-736-169-2424,224000000,True
+110,2023-08-06 23:59:44,66,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (490) 788 0659,113000000,True
+111,2023-11-15 01:50:24,69,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62-99-587-5257,130000000,True
+112,2023-12-17 09:25:23,94,14,Dijual murah Toyota Calya 2016,Minat hubungi +62 (28) 108-6141,134000000,True
+113,2023-11-22 17:54:22,59,21,Dijual murah Daihatsu Terios 2018,Minat hubungi (0517) 334-1352,206000000,True
+114,2023-08-15 11:57:01,40,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi 0877928322,200000000,True
+115,2023-12-03 23:28:43,2,13,Dijual murah Toyota Calya 2017,Minat hubungi (0105) 001 5479,124000000,True
+116,2023-08-10 00:12:58,38,10,Dijual murah Toyota Agya 2017,Minat hubungi +62 (042) 087-5922,97000000,True
+117,2023-09-16 18:13:04,77,2,Dijual murah Toyota Yaris 2018,Minat hubungi (0385) 381 1513,154000000,True
+118,2023-09-05 03:51:58,81,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi 084 410 2690,140000000,True
+119,2023-08-16 18:41:20,58,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi (0717) 143-9193,110000000,True
+120,2023-08-19 10:23:57,6,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62-032-047-7670,170000000,True
+121,2023-08-14 06:49:05,60,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi (014) 218-0535,170000000,True
+122,2023-11-03 03:40:32,40,7,Dijual murah Toyota Agya 2014,Minat hubungi 0877928322,147000000,True
+123,2023-09-10 16:50:48,23,40,Dijual murah Honda CR-V 2018,Minat hubungi +62 (01) 988-5838,146000000,True
+124,2023-06-08 00:42:25,3,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (38) 956-4132,120000000,True
+125,2023-09-04 05:15:40,78,21,Dijual murah Daihatsu Terios 2018,Minat hubungi +62 (004) 989-2448,206000000,True
+126,2023-07-02 12:05:45,86,2,Dijual murah Toyota Yaris 2018,Minat hubungi 087 872 6251,234000000,True
+127,2023-10-23 09:48:22,44,13,Dijual murah Toyota Calya 2017,Minat hubungi +62-690-214-7353,104000000,True
+128,2023-10-30 14:19:13,83,12,Dijual murah Toyota Calya 2019,Minat hubungi 0811999112,104000000,True
+129,2023-09-14 15:55:53,76,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi (0068) 559-5861,160000000,True
+130,2023-06-28 18:44:15,47,33,Dijual murah Honda Jazz 2018,Minat hubungi +62 (63) 104-2500,218000000,True
+131,2023-10-31 20:38:49,78,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi +62 (004) 989-2448,180000000,True
+132,2023-06-17 23:52:06,42,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi +62 (065) 418 8069,113000000,True
+133,2023-06-04 01:47:33,22,16,Dijual murah Daihatsu Ayla 2016,Minat hubungi +62 (0621) 341-5716,83000000,True
+134,2023-06-08 07:34:22,35,8,Dijual murah Toyota Agya 2016,Minat hubungi +62-327-166-4749,97000000,True
+135,2023-11-03 23:55:34,54,41,Dijual murah Honda Civic 2018,Minat hubungi +62 (094) 098 8445,376000000,True
+136,2023-08-20 08:07:05,76,15,Dijual murah Toyota Calya 2016,Minat hubungi (0068) 559-5861,134000000,True
+137,2023-08-07 17:41:31,54,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi +62 (094) 098 8445,113000000,True
+138,2023-07-08 02:37:18,86,13,Dijual murah Toyota Calya 2017,Minat hubungi 087 872 6251,104000000,True
+139,2023-08-16 01:33:57,54,13,Dijual murah Toyota Calya 2017,Minat hubungi +62 (094) 098 8445,114000000,True
+140,2023-12-25 16:09:55,12,15,Dijual murah Toyota Calya 2016,Minat hubungi +62 (003) 353 5433,134000000,True
+141,2023-11-28 20:11:20,96,43,Dijual murah Honda Civic 2013,Minat hubungi 0880386550,326000000,False
+142,2023-09-07 21:00:18,60,12,Dijual murah Toyota Calya 2019,Minat hubungi (014) 218-0535,114000000,True
+143,2023-12-22 05:16:49,31,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi +62-724-626-4369,113000000,True
+144,2023-08-25 03:19:33,80,10,Dijual murah Toyota Agya 2017,Minat hubungi 0883503448,147000000,True
+145,2023-09-30 01:36:00,64,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi (052) 479-7644,130000000,True
+146,2023-09-20 04:58:35,54,38,Dijual murah Honda CR-V 2009,Minat hubungi +62 (094) 098 8445,356000000,True
+147,2023-10-23 22:19:49,91,9,Dijual murah Toyota Agya 2022,Minat hubungi +62 (03) 976 4020,107000000,True
+148,2023-11-30 17:10:47,12,33,Dijual murah Honda Jazz 2018,Minat hubungi +62 (003) 353 5433,238000000,True
+149,2023-11-12 11:50:18,50,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi +62 (96) 811-6097,103000000,True
+150,2023-08-27 21:32:31,38,41,Dijual murah Honda Civic 2018,Minat hubungi +62 (042) 087-5922,216000000,True
+151,2023-11-01 20:40:31,14,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62-736-169-2424,83000000,True
+152,2023-09-10 17:17:46,44,39,Dijual murah Honda CR-V 2016,Minat hubungi +62-690-214-7353,246000000,True
+153,2023-11-03 07:12:27,90,14,Dijual murah Toyota Calya 2016,Minat hubungi (001) 519-0983,124000000,True
+154,2023-06-24 22:08:21,45,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi +62-0541-168-6119,93000000,True
+155,2023-08-03 12:58:59,51,35,Dijual murah Honda Jazz 2013,Minat hubungi +62-0323-400-8037,188000000,True
+156,2023-09-19 10:52:53,59,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi (0517) 334-1352,130000000,True
+157,2023-09-30 08:23:18,67,7,Dijual murah Toyota Agya 2014,Minat hubungi +62 (098) 177 6743,147000000,True
+158,2023-07-29 00:57:04,74,36,Dijual murah Honda CR-V 2018,Minat hubungi 089 995 3251,306000000,True
+159,2023-10-11 11:03:54,12,14,Dijual murah Toyota Calya 2016,Minat hubungi +62 (003) 353 5433,114000000,True
+160,2023-06-06 15:56:27,88,21,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-401-335-7620,166000000,True
+161,2023-10-05 09:34:42,12,2,Dijual murah Toyota Yaris 2018,Minat hubungi +62 (003) 353 5433,194000000,True
+162,2023-10-29 18:32:51,51,3,Dijual murah Toyota Yaris 2014,Minat hubungi +62-0323-400-8037,134000000,True
+163,2023-10-02 00:19:21,68,35,Dijual murah Honda Jazz 2013,Minat hubungi +62 (088) 683-5292,178000000,True
+164,2023-12-02 15:32:44,22,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62 (0621) 341-5716,160000000,True
+165,2023-12-19 13:29:14,38,39,Dijual murah Honda CR-V 2016,Minat hubungi +62 (042) 087-5922,386000000,False
+166,2024-01-01 12:40:17,13,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi (0399) 326-2076,150000000,False
+167,2023-10-05 05:47:46,96,32,Dijual murah Honda Jazz 2019,Minat hubungi 0880386550,208000000,True
+168,2023-08-24 21:33:12,37,21,Dijual murah Daihatsu Terios 2018,Minat hubungi (024) 251-8753,186000000,True
+169,2023-09-23 15:21:32,1,35,Dijual murah Honda Jazz 2013,Minat hubungi +62 (0099) 621 4650,218000000,True
+170,2023-11-14 13:35:08,46,11,Dijual murah Toyota Calya 2019,Minat hubungi (0219) 994-7824,104000000,True
+171,2023-09-25 03:32:11,39,12,Dijual murah Toyota Calya 2019,Minat hubungi +62-070-797-3669,134000000,True
+172,2023-12-01 05:41:51,33,36,Dijual murah Honda CR-V 2018,Minat hubungi (087) 337-9392,166000000,True
+173,2023-07-06 19:52:10,73,38,Dijual murah Honda CR-V 2009,Minat hubungi +62 (001) 431 3454,226000000,True
+174,2023-09-10 17:19:08,94,23,Dijual murah Daihatsu Terios 2019,Minat hubungi +62 (28) 108-6141,186000000,True
+175,2023-09-02 01:38:17,89,43,Dijual murah Honda Civic 2013,Minat hubungi +62 (44) 259-4438,196000000,True
+176,2023-08-19 17:06:41,26,25,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-0198-090-1604,176000000,True
+177,2023-12-12 20:28:22,34,34,Dijual murah Honda Jazz 2015,Minat hubungi +62 (252) 901 7638,178000000,True
+178,2023-12-05 06:53:22,89,33,Dijual murah Honda Jazz 2018,Minat hubungi +62 (44) 259-4438,178000000,True
+179,2023-08-18 06:55:52,38,11,Dijual murah Toyota Calya 2019,Minat hubungi +62 (042) 087-5922,114000000,True
+180,2023-12-03 02:22:22,67,38,Dijual murah Honda CR-V 2009,Minat hubungi +62 (098) 177 6743,346000000,True
+181,2023-10-10 11:17:31,36,45,Dijual murah Honda Civic 2019,Minat hubungi +62-039-843-9473,296000000,True
+182,2023-12-15 16:33:00,46,3,Dijual murah Toyota Yaris 2014,Minat hubungi (0219) 994-7824,154000000,False
+183,2023-06-10 00:44:34,73,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (001) 431 3454,113000000,True
+184,2023-06-17 00:19:47,34,43,Dijual murah Honda Civic 2013,Minat hubungi +62 (252) 901 7638,266000000,True
+185,2023-11-29 15:36:34,4,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62 (566) 558 9705,110000000,True
+186,2023-08-01 20:01:47,3,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi +62 (38) 956-4132,83000000,True
+187,2023-06-27 03:23:38,78,35,Dijual murah Honda Jazz 2013,Minat hubungi +62 (004) 989-2448,228000000,True
+188,2023-12-17 22:38:00,62,3,Dijual murah Toyota Yaris 2014,Minat hubungi +62 (023) 525 3628,124000000,True
+189,2023-07-25 16:36:12,29,33,Dijual murah Honda Jazz 2018,Minat hubungi 0851800132,248000000,True
+190,2023-07-05 05:07:45,6,21,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-032-047-7670,186000000,True
+191,2023-06-12 20:27:38,64,11,Dijual murah Toyota Calya 2019,Minat hubungi (052) 479-7644,104000000,True
+192,2023-09-29 01:21:28,40,40,Dijual murah Honda CR-V 2018,Minat hubungi 0877928322,196000000,True
+193,2023-06-29 09:41:22,8,7,Dijual murah Toyota Agya 2014,Minat hubungi (0541) 016 2281,107000000,True
+194,2023-11-18 03:28:21,85,36,Dijual murah Honda CR-V 2018,Minat hubungi +62-438-876-2919,256000000,True
+195,2023-12-26 11:18:44,80,12,Dijual murah Toyota Calya 2019,Minat hubungi 0883503448,134000000,True
+196,2023-11-20 01:17:49,58,41,Dijual murah Honda Civic 2018,Minat hubungi (0717) 143-9193,306000000,True
+197,2023-11-24 21:17:50,82,7,Dijual murah Toyota Agya 2014,Minat hubungi +62 (580) 901 3370,97000000,True
+198,2023-10-15 16:04:30,62,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (023) 525 3628,170000000,True
+199,2023-09-25 08:39:02,25,4,Dijual murah Toyota Yaris 2020,Minat hubungi +62 (0134) 111-6092,224000000,True
+200,2023-10-15 11:41:44,38,33,Dijual murah Honda Jazz 2018,Minat hubungi +62 (042) 087-5922,208000000,True
+201,2023-08-09 12:54:30,71,31,Dijual murah Honda Jazz 2018,Minat hubungi +62 (24) 082-8539,188000000,True
+202,2023-08-09 04:53:21,71,37,Dijual murah Honda CR-V 2017,Minat hubungi +62 (24) 082-8539,406000000,True
+203,2024-01-04 15:10:50,28,24,Dijual murah Daihatsu Terios 2017,Minat hubungi (027) 972-9462,176000000,True
+204,2023-08-18 03:12:04,96,44,Dijual murah Honda Civic 2013,Minat hubungi 0880386550,286000000,True
+205,2024-01-03 15:05:58,86,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi 087 872 6251,130000000,True
+206,2023-12-11 06:16:16,49,43,Dijual murah Honda Civic 2013,Minat hubungi +62-034-185-3846,386000000,True
+207,2023-06-11 15:07:31,34,45,Dijual murah Honda Civic 2019,Minat hubungi +62 (252) 901 7638,246000000,True
+208,2023-08-04 06:20:18,55,9,Dijual murah Toyota Agya 2022,Minat hubungi +62 (831) 678-9888,147000000,True
+209,2023-10-10 12:46:39,92,37,Dijual murah Honda CR-V 2017,Minat hubungi +62 (036) 953-6509,306000000,True
+210,2023-11-07 23:34:59,35,4,Dijual murah Toyota Yaris 2020,Minat hubungi +62-327-166-4749,224000000,True
+211,2023-10-28 11:28:25,93,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi 085 988 6168,140000000,False
+212,2024-01-05 17:02:37,4,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (566) 558 9705,83000000,True
+213,2023-08-28 14:51:33,21,4,Dijual murah Toyota Yaris 2020,Minat hubungi +62 (51) 020 3803,144000000,True
+214,2023-11-04 09:16:17,71,23,Dijual murah Daihatsu Terios 2019,Minat hubungi +62 (24) 082-8539,196000000,True
+215,2023-09-24 12:48:29,33,40,Dijual murah Honda CR-V 2018,Minat hubungi (087) 337-9392,336000000,True
+216,2023-12-25 18:53:27,58,40,Dijual murah Honda CR-V 2018,Minat hubungi (0717) 143-9193,266000000,True
+217,2023-08-26 01:53:14,62,4,Dijual murah Toyota Yaris 2020,Minat hubungi +62 (023) 525 3628,214000000,True
+218,2023-06-27 00:58:54,21,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi +62 (51) 020 3803,93000000,True
+219,2023-07-18 22:21:42,2,28,Dijual murah Daihatsu Xenia 2017,Minat hubungi (0105) 001 5479,170000000,False
+220,2023-10-16 17:50:14,51,41,Dijual murah Honda Civic 2018,Minat hubungi +62-0323-400-8037,356000000,True
+221,2023-12-04 09:54:37,24,1,Dijual murah Toyota Yaris 2016,Minat hubungi +62 (481) 110-8908,214000000,True
+222,2023-10-28 11:08:24,27,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62-469-196-1396,113000000,True
+223,2023-09-09 07:01:02,25,7,Dijual murah Toyota Agya 2014,Minat hubungi +62 (0134) 111-6092,127000000,True
+224,2023-10-04 18:23:20,31,39,Dijual murah Honda CR-V 2016,Minat hubungi +62-724-626-4369,146000000,True
+225,2023-06-09 22:54:15,24,17,Dijual murah Daihatsu Ayla 2019,Minat hubungi +62 (481) 110-8908,83000000,True
+226,2023-06-20 16:19:14,45,10,Dijual murah Toyota Agya 2017,Minat hubungi +62-0541-168-6119,147000000,True
+227,2023-10-05 05:02:21,55,9,Dijual murah Toyota Agya 2022,Minat hubungi +62 (831) 678-9888,117000000,True
+228,2023-09-07 04:29:16,91,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi +62 (03) 976 4020,160000000,True
+229,2023-07-07 01:27:36,93,40,Dijual murah Honda CR-V 2018,Minat hubungi 085 988 6168,256000000,True
+230,2023-12-16 14:11:43,15,36,Dijual murah Honda CR-V 2018,Minat hubungi +62-0914-021-1826,146000000,True
+231,2023-10-12 21:10:30,4,16,Dijual murah Daihatsu Ayla 2016,Minat hubungi +62 (566) 558 9705,103000000,True
+232,2023-06-29 21:57:13,10,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi +62 (0599) 099 8839,103000000,True
+233,2023-06-18 21:24:23,39,31,Dijual murah Honda Jazz 2018,Minat hubungi +62-070-797-3669,218000000,True
+234,2023-10-05 06:06:45,59,24,Dijual murah Daihatsu Terios 2017,Minat hubungi (0517) 334-1352,216000000,True
+235,2023-12-03 12:02:32,96,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi 0880386550,210000000,True
+236,2023-10-26 17:23:53,55,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (831) 678-9888,113000000,True
+237,2023-10-27 15:08:44,37,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi (024) 251-8753,93000000,True
+238,2023-12-01 17:45:13,16,1,Dijual murah Toyota Yaris 2016,Minat hubungi 081 745 5348,124000000,True
+239,2023-10-13 20:26:25,60,25,Dijual murah Daihatsu Terios 2018,Minat hubungi (014) 218-0535,206000000,True
+240,2023-11-29 15:00:28,57,45,Dijual murah Honda Civic 2019,Minat hubungi 0823275525,226000000,True
+241,2023-10-02 11:03:36,58,3,Dijual murah Toyota Yaris 2014,Minat hubungi (0717) 143-9193,224000000,True
+242,2023-10-16 02:01:48,82,32,Dijual murah Honda Jazz 2019,Minat hubungi +62 (580) 901 3370,248000000,True
+243,2023-07-08 09:43:36,91,33,Dijual murah Honda Jazz 2018,Minat hubungi +62 (03) 976 4020,178000000,True
+244,2023-08-29 17:52:12,36,25,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-039-843-9473,176000000,True
+245,2023-12-20 08:34:47,36,9,Dijual murah Toyota Agya 2022,Minat hubungi +62-039-843-9473,137000000,True
+246,2023-07-05 11:01:20,24,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (481) 110-8908,130000000,False
+247,2023-10-16 08:18:45,52,15,Dijual murah Toyota Calya 2016,Minat hubungi +62-57-976-3293,134000000,True
+248,2023-09-12 08:40:50,39,31,Dijual murah Honda Jazz 2018,Minat hubungi +62-070-797-3669,188000000,True
+249,2023-12-11 11:29:07,39,14,Dijual murah Toyota Calya 2016,Minat hubungi +62-070-797-3669,104000000,True
+250,2023-11-28 16:37:31,84,22,Dijual murah Daihatsu Terios 2022,Minat hubungi +62 (364) 443 8368,186000000,False
+251,2023-07-31 21:34:52,81,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi 084 410 2690,120000000,True
+252,2023-09-30 12:39:25,99,32,Dijual murah Honda Jazz 2019,Minat hubungi +62 (49) 390 4348,228000000,True
+253,2024-01-01 05:08:12,98,32,Dijual murah Honda Jazz 2019,Minat hubungi +62 (877) 755 0185,248000000,True
+254,2023-08-12 12:25:52,61,10,Dijual murah Toyota Agya 2017,Minat hubungi (0572) 007-6406,97000000,True
+255,2023-10-03 16:43:34,96,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi 0880386550,103000000,True
+256,2023-12-15 18:29:01,97,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62-60-528-5836,140000000,True
+257,2023-09-03 14:52:24,20,37,Dijual murah Honda CR-V 2017,Minat hubungi 0891920606,126000000,True
+258,2023-09-29 20:02:07,8,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi (0541) 016 2281,110000000,True
+259,2023-08-11 22:24:25,21,15,Dijual murah Toyota Calya 2016,Minat hubungi +62 (51) 020 3803,134000000,True
+260,2023-09-12 20:19:42,39,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi +62-070-797-3669,150000000,True
+261,2023-08-01 15:02:11,61,24,Dijual murah Daihatsu Terios 2017,Minat hubungi (0572) 007-6406,216000000,True
+262,2023-06-25 18:08:13,84,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (364) 443 8368,170000000,True
+263,2023-09-06 16:48:27,36,24,Dijual murah Daihatsu Terios 2017,Minat hubungi +62-039-843-9473,196000000,True
+264,2023-11-18 03:22:04,1,10,Dijual murah Toyota Agya 2017,Minat hubungi +62 (0099) 621 4650,127000000,True
+265,2023-07-15 04:40:11,14,40,Dijual murah Honda CR-V 2018,Minat hubungi +62-736-169-2424,126000000,True
+266,2023-06-07 19:12:17,34,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (252) 901 7638,83000000,True
+267,2023-09-19 20:00:48,6,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi +62-032-047-7670,110000000,True
+268,2023-10-23 07:04:32,40,22,Dijual murah Daihatsu Terios 2022,Minat hubungi 0877928322,196000000,True
+269,2023-07-30 10:22:03,94,5,Dijual murah Toyota Yaris 2012,Minat hubungi +62 (28) 108-6141,194000000,True
+270,2023-09-10 07:31:38,59,9,Dijual murah Toyota Agya 2022,Minat hubungi (0517) 334-1352,107000000,True
+271,2023-11-23 11:11:50,75,32,Dijual murah Honda Jazz 2019,Minat hubungi (0817) 568-4115,208000000,False
+272,2023-07-15 07:01:00,59,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi (0517) 334-1352,130000000,True
+273,2023-09-30 02:10:07,67,5,Dijual murah Toyota Yaris 2012,Minat hubungi +62 (098) 177 6743,174000000,True
+274,2023-12-26 00:19:02,5,44,Dijual murah Honda Civic 2013,Minat hubungi +62 (68) 455 0788,206000000,True
+275,2023-09-26 14:56:06,90,14,Dijual murah Toyota Calya 2016,Minat hubungi (001) 519-0983,114000000,True
+276,2023-10-17 20:05:22,28,38,Dijual murah Honda CR-V 2009,Minat hubungi (027) 972-9462,176000000,True
+277,2023-09-25 08:30:41,4,21,Dijual murah Daihatsu Terios 2018,Minat hubungi +62 (566) 558 9705,216000000,True
+278,2023-10-31 04:10:50,11,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi (025) 249 3491,200000000,True
+279,2023-06-06 01:37:39,21,11,Dijual murah Toyota Calya 2019,Minat hubungi +62 (51) 020 3803,124000000,True
+280,2023-09-05 07:06:35,1,5,Dijual murah Toyota Yaris 2012,Minat hubungi +62 (0099) 621 4650,214000000,True
+281,2023-07-20 00:29:42,68,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi +62 (088) 683-5292,150000000,True
+282,2023-11-04 11:14:14,100,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi 081 495 8354,150000000,True
+283,2023-09-29 06:57:11,74,38,Dijual murah Honda CR-V 2009,Minat hubungi 089 995 3251,126000000,True
+284,2023-11-14 15:03:32,95,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi +62-0579-293-3082,100000000,True
+285,2023-07-16 23:15:06,79,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi +62 (070) 324-3544,113000000,True
+286,2023-08-16 13:58:54,91,16,Dijual murah Daihatsu Ayla 2016,Minat hubungi +62 (03) 976 4020,83000000,True
+287,2023-08-06 15:35:42,82,39,Dijual murah Honda CR-V 2016,Minat hubungi +62 (580) 901 3370,286000000,True
+288,2024-01-02 22:30:14,22,12,Dijual murah Toyota Calya 2019,Minat hubungi +62 (0621) 341-5716,124000000,True
+289,2023-09-26 08:18:29,17,38,Dijual murah Honda CR-V 2009,Minat hubungi +62 (35) 560 7211,186000000,True
+290,2023-10-23 08:39:56,7,24,Dijual murah Daihatsu Terios 2017,Minat hubungi (0330) 549 4608,206000000,True
+291,2023-07-21 00:40:49,39,28,Dijual murah Daihatsu Xenia 2017,Minat hubungi +62-070-797-3669,200000000,True
+292,2023-10-11 18:45:56,72,7,Dijual murah Toyota Agya 2014,Minat hubungi +62 (987) 281 3637,97000000,True
+293,2023-10-11 19:38:54,41,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi +62-089-173-9354,220000000,True
+294,2023-11-28 00:30:43,1,24,Dijual murah Daihatsu Terios 2017,Minat hubungi +62 (0099) 621 4650,216000000,True
+295,2023-06-27 09:37:21,55,28,Dijual murah Daihatsu Xenia 2017,Minat hubungi +62 (831) 678-9888,210000000,True
+296,2023-08-17 22:28:09,76,31,Dijual murah Honda Jazz 2018,Minat hubungi (0068) 559-5861,188000000,True
+297,2023-07-09 10:55:20,2,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi (0105) 001 5479,113000000,True
+298,2023-06-19 15:28:32,14,37,Dijual murah Honda CR-V 2017,Minat hubungi +62-736-169-2424,206000000,True
+299,2023-08-24 13:32:32,50,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (96) 811-6097,120000000,True
+300,2023-11-23 19:51:19,96,12,Dijual murah Toyota Calya 2019,Minat hubungi 0880386550,104000000,True
+301,2023-08-04 12:20:01,76,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi (0068) 559-5861,170000000,True
+302,2023-12-18 14:03:31,26,8,Dijual murah Toyota Agya 2016,Minat hubungi +62-0198-090-1604,117000000,True
+303,2023-08-08 16:59:37,7,2,Dijual murah Toyota Yaris 2018,Minat hubungi (0330) 549 4608,234000000,True
+304,2023-12-12 16:11:52,7,37,Dijual murah Honda CR-V 2017,Minat hubungi (0330) 549 4608,326000000,True
+305,2023-06-28 13:37:06,5,44,Dijual murah Honda Civic 2013,Minat hubungi +62 (68) 455 0788,356000000,True
+306,2023-12-06 20:46:05,80,5,Dijual murah Toyota Yaris 2012,Minat hubungi 0883503448,124000000,True
+307,2023-06-25 01:14:31,18,19,Dijual murah Daihatsu Ayla 2017,Minat hubungi 0830540582,83000000,True
+308,2024-01-03 01:44:55,75,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi (0817) 568-4115,120000000,True
+309,2023-09-10 18:17:38,85,8,Dijual murah Toyota Agya 2016,Minat hubungi +62-438-876-2919,127000000,True
+310,2023-12-19 07:54:20,62,6,Dijual murah Toyota Agya 2019,Minat hubungi +62 (023) 525 3628,107000000,True
+311,2023-09-01 10:05:51,3,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi +62 (38) 956-4132,200000000,True
+312,2023-12-05 13:54:10,68,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi +62 (088) 683-5292,200000000,True
+313,2023-08-31 21:12:13,93,18,Dijual murah Daihatsu Ayla 2015,Minat hubungi 085 988 6168,103000000,True
+314,2023-08-24 10:20:32,37,14,Dijual murah Toyota Calya 2016,Minat hubungi (024) 251-8753,124000000,True
+315,2023-12-17 11:58:52,70,35,Dijual murah Honda Jazz 2013,Minat hubungi +62 (038) 767 7524,178000000,True
+316,2023-06-15 08:20:59,24,44,Dijual murah Honda Civic 2013,Minat hubungi +62 (481) 110-8908,356000000,True
+317,2023-08-08 11:17:02,67,37,Dijual murah Honda CR-V 2017,Minat hubungi +62 (098) 177 6743,286000000,True
+318,2023-06-26 00:13:55,44,3,Dijual murah Toyota Yaris 2014,Minat hubungi +62-690-214-7353,174000000,True
+319,2023-08-27 17:54:49,25,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi +62 (0134) 111-6092,200000000,True
+320,2023-09-08 00:53:50,96,20,Dijual murah Daihatsu Ayla 2017,Minat hubungi 0880386550,103000000,True
+321,2023-09-17 01:34:11,11,43,Dijual murah Honda Civic 2013,Minat hubungi (025) 249 3491,376000000,True
+322,2023-07-12 14:31:01,51,13,Dijual murah Toyota Calya 2017,Minat hubungi +62-0323-400-8037,114000000,True
+323,2023-08-04 01:40:16,41,40,Dijual murah Honda CR-V 2018,Minat hubungi +62-089-173-9354,146000000,True
+324,2023-06-22 19:24:08,9,9,Dijual murah Toyota Agya 2022,Minat hubungi 0823567227,117000000,True
+325,2023-06-19 03:55:43,96,46,Dijual murah Suzuki Ertiga 2015,Minat hubungi 0880386550,170000000,True
+326,2024-01-02 04:03:32,78,9,Dijual murah Toyota Agya 2022,Minat hubungi +62 (004) 989-2448,137000000,True
+327,2023-07-21 21:55:13,86,1,Dijual murah Toyota Yaris 2016,Minat hubungi 087 872 6251,184000000,True
+328,2023-08-29 00:22:59,53,34,Dijual murah Honda Jazz 2015,Minat hubungi +62 (061) 636 8857,188000000,True
+329,2023-07-06 02:40:01,92,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (036) 953-6509,170000000,True
+330,2023-12-28 01:36:47,17,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi +62 (35) 560 7211,210000000,True
+331,2023-07-30 04:36:49,33,24,Dijual murah Daihatsu Terios 2017,Minat hubungi (087) 337-9392,166000000,True
+332,2023-11-02 22:47:10,8,10,Dijual murah Toyota Agya 2017,Minat hubungi (0541) 016 2281,147000000,True
+333,2023-08-29 18:42:59,26,25,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-0198-090-1604,206000000,True
+334,2023-11-28 13:24:03,47,13,Dijual murah Toyota Calya 2017,Minat hubungi +62 (63) 104-2500,124000000,True
+335,2023-08-03 22:08:30,17,13,Dijual murah Toyota Calya 2017,Minat hubungi +62 (35) 560 7211,134000000,True
+336,2023-10-01 21:07:24,36,43,Dijual murah Honda Civic 2013,Minat hubungi +62-039-843-9473,196000000,True
+337,2023-10-29 20:32:05,87,22,Dijual murah Daihatsu Terios 2022,Minat hubungi (052) 147 8944,186000000,True
+338,2023-07-10 06:40:47,9,9,Dijual murah Toyota Agya 2022,Minat hubungi 0823567227,107000000,True
+339,2023-12-10 01:40:54,28,6,Dijual murah Toyota Agya 2019,Minat hubungi (027) 972-9462,127000000,True
+340,2023-12-19 08:02:18,7,40,Dijual murah Honda CR-V 2018,Minat hubungi (0330) 549 4608,346000000,True
+341,2023-07-17 22:47:02,44,45,Dijual murah Honda Civic 2019,Minat hubungi +62-690-214-7353,246000000,True
+342,2023-06-03 21:40:00,26,1,Dijual murah Toyota Yaris 2016,Minat hubungi +62-0198-090-1604,154000000,True
+343,2023-12-31 10:43:15,93,6,Dijual murah Toyota Agya 2019,Minat hubungi 085 988 6168,97000000,True
+344,2023-11-20 17:56:37,52,3,Dijual murah Toyota Yaris 2014,Minat hubungi +62-57-976-3293,184000000,True
+345,2023-11-14 13:56:01,34,50,Dijual murah Suzuki Ertiga 2018,Minat hubungi +62 (252) 901 7638,170000000,True
+346,2023-07-10 15:56:13,45,7,Dijual murah Toyota Agya 2014,Minat hubungi +62-0541-168-6119,127000000,True
+347,2023-06-03 18:06:23,96,47,Dijual murah Suzuki Ertiga 2018,Minat hubungi 0880386550,120000000,True
+348,2023-08-15 23:28:35,94,44,Dijual murah Honda Civic 2013,Minat hubungi +62 (28) 108-6141,316000000,True
+349,2023-11-14 14:52:14,26,21,Dijual murah Daihatsu Terios 2018,Minat hubungi +62-0198-090-1604,176000000,True
+350,2023-12-08 09:05:34,85,15,Dijual murah Toyota Calya 2016,Minat hubungi +62-438-876-2919,124000000,True
+351,2023-06-20 16:56:02,90,38,Dijual murah Honda CR-V 2009,Minat hubungi (001) 519-0983,166000000,True
+352,2023-10-03 02:58:12,54,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi +62 (094) 098 8445,190000000,True
+353,2023-11-14 08:10:09,82,30,Dijual murah Daihatsu Xenia 2018,Minat hubungi +62 (580) 901 3370,170000000,True
+354,2023-12-02 06:53:48,81,34,Dijual murah Honda Jazz 2015,Minat hubungi 084 410 2690,188000000,True
+355,2023-08-26 17:25:32,59,7,Dijual murah Toyota Agya 2014,Minat hubungi (0517) 334-1352,97000000,True
+356,2023-11-12 20:40:43,17,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62 (35) 560 7211,160000000,True
+357,2023-08-19 20:59:21,42,25,Dijual murah Daihatsu Terios 2018,Minat hubungi +62 (065) 418 8069,206000000,True
+358,2023-12-04 17:52:00,29,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi 0851800132,130000000,True
+359,2023-10-21 15:46:41,21,11,Dijual murah Toyota Calya 2019,Minat hubungi +62 (51) 020 3803,114000000,True
+360,2023-12-15 23:20:01,9,36,Dijual murah Honda CR-V 2018,Minat hubungi 0823567227,146000000,True
+361,2023-10-29 12:08:05,21,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi +62 (51) 020 3803,170000000,True
+362,2023-07-22 15:34:17,85,14,Dijual murah Toyota Calya 2016,Minat hubungi +62-438-876-2919,134000000,True
+363,2023-11-11 07:48:06,14,40,Dijual murah Honda CR-V 2018,Minat hubungi +62-736-169-2424,276000000,True
+364,2023-11-25 07:09:00,63,1,Dijual murah Toyota Yaris 2016,Minat hubungi 0835622481,214000000,True
+365,2023-10-23 16:03:23,27,35,Dijual murah Honda Jazz 2013,Minat hubungi +62-469-196-1396,228000000,True
+366,2023-06-09 18:44:35,44,38,Dijual murah Honda CR-V 2009,Minat hubungi +62-690-214-7353,356000000,True
+367,2023-06-15 23:52:31,23,38,Dijual murah Honda CR-V 2009,Minat hubungi +62 (01) 988-5838,166000000,True
+368,2023-11-12 21:12:04,64,34,Dijual murah Honda Jazz 2015,Minat hubungi (052) 479-7644,218000000,True
+369,2023-07-17 14:50:25,92,45,Dijual murah Honda Civic 2019,Minat hubungi +62 (036) 953-6509,286000000,True
+370,2023-10-29 06:41:32,74,29,Dijual murah Daihatsu Xenia 2014,Minat hubungi 089 995 3251,200000000,True
+371,2023-06-30 20:45:36,32,38,Dijual murah Honda CR-V 2009,Minat hubungi (001) 824 1543,256000000,True
+372,2023-11-12 07:46:41,43,32,Dijual murah Honda Jazz 2019,Minat hubungi +62 (11) 333-6097,208000000,True
+373,2023-06-29 06:44:06,31,15,Dijual murah Toyota Calya 2016,Minat hubungi +62-724-626-4369,124000000,True
+374,2023-08-04 15:25:45,57,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi 0823275525,160000000,True
+375,2023-06-06 19:53:19,35,48,Dijual murah Suzuki Ertiga 2016,Minat hubungi +62-327-166-4749,150000000,True
+376,2023-11-25 02:06:34,52,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi +62-57-976-3293,180000000,True
+377,2023-11-18 09:08:49,31,40,Dijual murah Honda CR-V 2018,Minat hubungi +62-724-626-4369,216000000,True
+378,2023-09-03 07:40:43,78,2,Dijual murah Toyota Yaris 2018,Minat hubungi +62 (004) 989-2448,214000000,True
+379,2023-09-11 01:32:04,33,23,Dijual murah Daihatsu Terios 2019,Minat hubungi (087) 337-9392,186000000,True
+380,2023-12-01 20:20:10,89,43,Dijual murah Honda Civic 2013,Minat hubungi +62 (44) 259-4438,366000000,True
+381,2023-06-25 14:21:43,24,22,Dijual murah Daihatsu Terios 2022,Minat hubungi +62 (481) 110-8908,176000000,True
+382,2023-09-20 11:43:24,36,44,Dijual murah Honda Civic 2013,Minat hubungi +62-039-843-9473,186000000,True
+383,2023-09-10 13:10:23,45,27,Dijual murah Daihatsu Xenia 2022,Minat hubungi +62-0541-168-6119,130000000,True
+384,2023-10-25 09:26:10,18,41,Dijual murah Honda Civic 2018,Minat hubungi 0830540582,396000000,True
+385,2023-11-15 12:49:26,100,37,Dijual murah Honda CR-V 2017,Minat hubungi 081 495 8354,356000000,True
+386,2023-07-04 04:52:37,79,41,Dijual murah Honda Civic 2018,Minat hubungi +62 (070) 324-3544,346000000,False
+387,2023-09-05 05:19:57,91,13,Dijual murah Toyota Calya 2017,Minat hubungi +62 (03) 976 4020,104000000,True
+388,2023-07-30 19:31:00,24,41,Dijual murah Honda Civic 2018,Minat hubungi +62 (481) 110-8908,286000000,True
+389,2023-12-05 22:07:14,2,21,Dijual murah Daihatsu Terios 2018,Minat hubungi (0105) 001 5479,166000000,True
+390,2023-12-22 07:42:39,98,39,Dijual murah Honda CR-V 2016,Minat hubungi +62 (877) 755 0185,396000000,True
+391,2023-10-22 03:33:15,70,6,Dijual murah Toyota Agya 2019,Minat hubungi +62 (038) 767 7524,147000000,True
+392,2023-07-23 23:22:46,58,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi (0717) 143-9193,220000000,True
+393,2023-10-03 08:52:53,43,36,Dijual murah Honda CR-V 2018,Minat hubungi +62 (11) 333-6097,306000000,True
+394,2023-10-28 16:59:08,4,45,Dijual murah Honda Civic 2019,Minat hubungi +62 (566) 558 9705,206000000,True
+395,2023-11-01 06:19:42,90,11,Dijual murah Toyota Calya 2019,Minat hubungi (001) 519-0983,114000000,True
+396,2023-11-23 11:19:54,91,26,Dijual murah Daihatsu Xenia 2019,Minat hubungi +62 (03) 976 4020,170000000,True
+397,2023-06-27 08:17:21,94,21,Dijual murah Daihatsu Terios 2018,Minat hubungi +62 (28) 108-6141,186000000,True
+398,2023-10-06 04:57:50,88,9,Dijual murah Toyota Agya 2022,Minat hubungi +62-401-335-7620,97000000,True
+399,2023-08-05 16:12:36,14,6,Dijual murah Toyota Agya 2019,Minat hubungi +62-736-169-2424,127000000,True
+400,2023-09-17 12:33:38,76,49,Dijual murah Suzuki Ertiga 2012,Minat hubungi (0068) 559-5861,150000000,True
